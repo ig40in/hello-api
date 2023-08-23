@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Build
-        run: make bulid
+        run: make build
 
       - name: Copy Files
         run: mkdir artifacts
