@@ -22,7 +22,8 @@ jobs:
         run: make build
 
       - name: Copy Files
-        run: mkdir artifacts
+        run: |
+          mkdir artifacts
           cp api artifacts/.
 
       - name: Archive
