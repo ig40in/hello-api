@@ -19,3 +19,7 @@ go.work
 
 # Do not include the resulting binary itself
 api
+
+# Do not include results of the test coverage tool
+coverage.out
+cover.xhtml
