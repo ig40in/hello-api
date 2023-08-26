@@ -86,8 +86,7 @@ jobs:
         with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
-          body: |
-            "Still in experimentation phase"
+          body: "Still in experimentation phase"
           draft: true
           prerelease: true
 
