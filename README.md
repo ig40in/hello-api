@@ -22,9 +22,9 @@ fully functioning CI/CD pipeline.
 ## Relesae Milestones
 
 ### V0
-- [ ] Onboarding Documentation
-- [ ] Simple API response ("Hello, World!")
-- [ ] Unit tests
+- [x] Onboarding Documentation
+- [x] Simple API response ("Hello, World!")
+- [x] Unit tests
 - [ ] Running somewhere other than the dev machine
 
 ### V1
