@@ -69,6 +69,7 @@ jobs:
     name: Release
     needs: build
     runs-on: ubuntu-latest
+    permissions: write-all
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
