@@ -86,8 +86,8 @@ jobs:
         with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
-          #body: |
-          #Still in experimentation phase
+          body: |
+            Still in experimentation phase
           draft: true
           prerelease: true
 
@@ -97,6 +97,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: api
-        asset_name: api
-        asset_content_type: application/octet-stream
+          asset_path: api
+          asset_name: api
+          asset_content_type: application/octet-stream
