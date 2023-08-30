@@ -119,6 +119,7 @@ jobs:
           name: translate
           entry_point: Translate
           runtime: go120
+          project_id: data-shard-397223
           credentials: ${{ secrets.gcp_credentials }}
 
       - id: test
