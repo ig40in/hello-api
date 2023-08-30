@@ -114,7 +114,7 @@ jobs:
 
       - name: Deploy Function
         id: deploy
-        uses: google-github-actions/deploy-cloud-functions@main
+        uses: google-github-actions/deploy-cloud-functions@1
         with:
           name: translate
           entry_point: Translate
